@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pundi — anggaran keluarga</title>
+<meta name="description" content="Pundi: perencana anggaran rumah tangga keluarga Indonesia. Angka referensi riil BPS, PIHPS, UMP, PLN, BPJS. Semua data tetap di browser Anda.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231c7c50'/%3E%3Cpath d='M9 22V10h7a5 5 0 0 1 0 10h-3l5 6h-3.5L12 20h-1v2z' fill='%23fdfaf3'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">
+    <span class="brand-mark" aria-hidden="true">₨</span>
+    <span class="brand-text"><strong>Pundi</strong><small>anggaran keluarga</small></span>
+  </a>
+  <nav id="desk-nav" aria-label="Navigasi utama">
+    <a href="#/" data-route="beranda">Beranda</a>
+    <a href="#/transaksi" data-route="transaksi">Transaksi</a>
+    <a href="#/pagu" data-route="pagu">Pagu</a>
+    <a href="#/kalkulator" data-route="kalkulator">Kalkulator</a>
+    <a href="#/harga" data-route="harga">Harga Pangan</a>
+    <a href="#/tentang" data-route="tentang">Tentang</a>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<footer class="site-foot">
+  <span>Pundi · angka referensi BPS Susenas 2024, PIHPS BI, HET Kemendag, UMP 2027, PLN &amp; BPJS — dikompilasi 26 Nov 2026.</span>
+  <span>Data hanya tersimpan di browser ini (localStorage), tanpa server.</span>
+</footer>
+
+<nav id="mob-nav" aria-label="Navigasi bawah">
+  <a href="#/" data-route="beranda"><span class="mi" data-i="home"></span>Beranda</a>
+  <a href="#/transaksi" data-route="transaksi"><span class="mi" data-i="plus"></span>Transaksi</a>
+  <a href="#/pagu" data-route="pagu"><span class="mi" data-i="target"></span>Pagu</a>
+  <a href="#/kalkulator" data-route="kalkulator"><span class="mi" data-i="calc"></span>Kalkulator</a>
+  <a href="#/harga" data-route="harga"><span class="mi" data-i="chart"></span>Harga</a>
+</nav>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
